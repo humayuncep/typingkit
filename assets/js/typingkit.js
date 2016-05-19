@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    // If you use bootstrap 3 then uncomment the next line
-    // $('[data-toggle="tooltip"]').tooltip();
+
+    $('[data-toggle="tooltip"]').tooltip();
 
 
     // Write Something on browser
@@ -10,7 +10,7 @@ $(document).ready(function(){
           // How much to 'sway' (random * this-many-milliseconds)
             random_setting = 100;
           // The text to use NB use \n not real life line breaks!
-            input_text = "<div class='main'>\n\t<!-- holy moly I forgot how fast I can type when I get going -->\n\t<h1>Introduction</h1>\n\t<p>Welcome to my website, all about my adventures with code</p>\n</div><!-- .main -->";
+            input_text = "<section id='section' class='section'>\n\t<!-- It's a general section -->\n\t<h1>Introduction to Typingkit</h1>\n\t<p>Thanks for using Typingkit, Write everything here.</p>\n</div><!-- /#section -->";
           // Where to fill up
             target_setting = $("#output");
             // target_setting = $(".content");

@@ -1,20 +1,33 @@
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
 body {
-    font-family: "Lucida Console", Monaco, monospace;
-    background: #2980b9;
+    font-family: "Roboto", Monaco, monospace;
+    /*background: #1abc9c;*/
 }
-
 h1 {
-    color: #fff;
-    text-align: center;
+    color: #111;
+    margin: 0;
 }
 .social {
  	font-size: 24px;
 	background-color: transparent;
-	text-align: center;
 	padding: 5px;
 }
 .social a {
-	color: #fff;
+	color: #111;
 	padding: 8px;
+}
+section{
+	margin-top: 60px;
+    text-align: center;
+}
+.content{
+	margin-top: 40px;
+}
+img{
+	width: 80%;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 0;
 }
